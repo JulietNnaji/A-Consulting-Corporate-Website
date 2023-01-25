@@ -23,6 +23,13 @@
   body{
     font-family: var(--body-font);
  }
+
+ .whole{
+  margin: 5px 15px;
+  border: 10px solid black;
+  border-radius: 10px;
+
+ }
  .first-section{
   background: var(--primary-color);
   color: white;
@@ -61,11 +68,13 @@
 font-weight: 400;
 font-size: 24px;
 line-height: 24px;
+color: black;
 font-style: normal;
 }
 h3{
   font-size: 16px;
   font-weight: 400;
+  color: black;
   font-style: normal;
   margin-bottom: 0%;
 }
@@ -91,24 +100,56 @@ top: -50px;
   left: 863px;
   top: -140px;
 }
-.fa-circle-arrow-down{
+.arrow-1{
   color:#4570e9;
   padding-bottom: 25px;
 }
 
+.fa-circle-chevron-right{
+  font-size: 50px;
+  color: white;
+  opacity: 35%;
+  margin-top: 70px;
+}
+
+.arrow-2{
+  color:white;
+  font-size: 20px;
+  opacity: 25%;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.mobile-section,.mobile-section-2{
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.mobile-section{
+  font-size: 12px;
+  color: white;
+  opacity: 55%;
+  margin-bottom: 0;
+}
+.mobile-section-2{
+  font-size: 15px;
+  color: white;
+  margin-top: 0;
+}
 .third-section{
   text-align: left;
-  padding-top: 70px;
+  padding-top: 50px;
   background-color: var(--secondary-color);
 }
 
 .third-paragraph{
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 24px;
   font-style: normal;
   color: white;
   padding-left: 350px;
+  padding-top: 70px;
   }
 
 .continuation{
@@ -116,13 +157,34 @@ top: -50px;
 }
 
 .last-paragraph{
-text-align: end;
-font-weight: 400;
-font-size: 18px;
+font-weight:100;
+font-size: 12px;
 line-height: 20px;
 font-style: normal;
 color: white;
+position: absolute;
+bottom: -650px;
+right: 50px;
 }
+
+hr {
+  display: block;
+  margin-top: 150px;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 30px;
+  border-style: inset;
+  border-width: 1px;
+  color: white;
+}
+
+.last-image{
+  width: 150px;
+  height: 200px;
+  background-image: url("Images/image-3.jpg");
+  background-color: var(--primary-color);
+  background-blend-mode: lighten;
+  }
 
  @media (max-width:600px) {
 .body-image{
@@ -131,10 +193,17 @@ color: white;
 .first-section{
   padding-right: 40px;
 }
-.second-section{
+.second-section, .third-section{
   display: none;
 }
-.fa-circle-arrow-down{
+.arrow-1{
  display: none;
 }
+ }
+
+ @media (min-width:1024px) {
+  .mobile-view{
+    display: none;
+  }
+  
  }
