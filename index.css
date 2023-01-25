@@ -1,6 +1,6 @@
 :root {
     --primary-color:#1248DE;
-    --secondary-color: #002273;
+    --secondary-color: #001952;
     --body-font:'Familjen Grotesk', sans-serif;
     --box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px 0px;
   }
@@ -54,6 +54,7 @@
   text-align: left;
   padding-top: 70px;
   padding-left: 350px;
+  background-color: #E5E5E5;
 }
 
 .second-paragraph{
@@ -93,6 +94,34 @@ top: -50px;
 .fa-circle-arrow-down{
   color:#4570e9;
   padding-bottom: 25px;
+}
+
+.third-section{
+  text-align: left;
+  padding-top: 70px;
+  background-color: var(--secondary-color);
+}
+
+.third-paragraph{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+  color: white;
+  padding-left: 350px;
+  }
+
+.continuation{
+  color: yellow;
+}
+
+.last-paragraph{
+text-align: end;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+font-style: normal;
+color: white;
 }
 
  @media (max-width:600px) {
