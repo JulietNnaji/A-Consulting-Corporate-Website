@@ -188,6 +188,9 @@ hr {
   }
 
  @media (max-width:600px) {
+  .mobile-view{
+    width: 95%;
+  }
 .body-image{
   display: none;
 }
